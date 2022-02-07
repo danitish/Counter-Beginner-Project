@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 2rem;
+  font-family: "Heebo", sans-serif;
+}
+h1 {
+  font-family: "Handlee", cursive;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(195, 246, 255, 0.424);
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding-top: 10rem;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.resetbutton:hover {
+  background-color: red;
+  color: white;
+  border: none;
+}
